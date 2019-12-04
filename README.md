@@ -16,8 +16,8 @@ Head into System Preferences and select Keyboard > Shortcuts > Services. Find "N
 
 # Next Steps to make scaleable
 1. Handling large JSON Files
-  - Use a faster JSON handler
-  - Break up the data into smaller amounts
-  - Better error handling in the init functions for Choices and Changes types
+    - Use a faster JSON handler possbily https://github.com/dhoerl/SAX-JSON-Parser-ForStreamingData
+    - Break up the data into smaller amounts either on server or in the client (server better)
+    - Better error handling in the init functions for Choices and Changes types
 2. Make Ids unique with checks
 3. Similar CRUD functions for User and Song
