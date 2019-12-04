@@ -2,7 +2,5 @@ bin/MixTape.swiftmodule/x86_64-apple-macos.swiftdoc
 bin/MixTape.swiftmodule/x86_64-apple-macos.swiftmodule
 bin/MixTape.swiftmodule/x86_64.swiftdoc
 bin/MixTape.swiftmodule/x86_64.swiftmodule
-MixTape.xcodeproj/project.xcworkspace/xcuserdata/taylor.xcuserdatad/xcdebugger/Expressions.xcexplist
-MixTape.xcodeproj/xcshareddata/xcschemes/MixTape.xcscheme
-MixTape.xcodeproj/xcshareddata/xcschemes/Test.xcscheme
-MixTape.xcodeproj/xcuserdata/taylor.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+MixTape.xcodeproj/project.xcworkspace/xcuserdata/taylor.xcuserdatad/xcdebugger/
+output.json
