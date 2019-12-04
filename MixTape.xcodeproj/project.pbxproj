@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		342D27392396C6B400B73560 /* UserChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D27382396C6B400B73560 /* UserChange.swift */; };
+		342D273B2396C9E000B73560 /* ChangeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D273A2396C9E000B73560 /* ChangeType.swift */; };
+		342D273D2396CA8D00B73560 /* PlayListChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D273C2396CA8D00B73560 /* PlayListChange.swift */; };
+		342D273F2396CADA00B73560 /* SongChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D273E2396CADA00B73560 /* SongChange.swift */; };
+		342D27412396CB2D00B73560 /* Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342D27402396CB2D00B73560 /* Changes.swift */; };
 		345956C023968EEE0026BB2E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345956BF23968EEE0026BB2E /* main.swift */; };
+		345956CB2396924D0026BB2E /* Processor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345956CA2396924D0026BB2E /* Processor.swift */; };
+		345956CD239696A10026BB2E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345956CC239696A10026BB2E /* User.swift */; };
+		345956D0239697620026BB2E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345956CF239697620026BB2E /* Song.swift */; };
+		345956D2239697B00026BB2E /* PlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345956D1239697B00026BB2E /* PlayList.swift */; };
+		345956D4239698530026BB2E /* Choices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345956D3239698530026BB2E /* Choices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		342D27382396C6B400B73560 /* UserChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChange.swift; sourceTree = "<group>"; };
+		342D273A2396C9E000B73560 /* ChangeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeType.swift; sourceTree = "<group>"; };
+		342D273C2396CA8D00B73560 /* PlayListChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListChange.swift; sourceTree = "<group>"; };
+		342D273E2396CADA00B73560 /* SongChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongChange.swift; sourceTree = "<group>"; };
+		342D27402396CB2D00B73560 /* Changes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Changes.swift; sourceTree = "<group>"; };
 		345956BC23968EEE0026BB2E /* MixTape */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MixTape; sourceTree = BUILT_PRODUCTS_DIR; };
 		345956BF23968EEE0026BB2E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		345956CA2396924D0026BB2E /* Processor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
+		345956CC239696A10026BB2E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		345956CF239697620026BB2E /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		345956D1239697B00026BB2E /* PlayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayList.swift; sourceTree = "<group>"; };
+		345956D3239698530026BB2E /* Choices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +61,7 @@
 		345956B323968EEE0026BB2E = {
 			isa = PBXGroup;
 			children = (
+				345956C623968F0C0026BB2E /* bin */,
 				345956BE23968EEE0026BB2E /* MixTape */,
 				345956BD23968EEE0026BB2E /* Products */,
 			);
@@ -57,9 +78,34 @@
 		345956BE23968EEE0026BB2E /* MixTape */ = {
 			isa = PBXGroup;
 			children = (
+				345956CE2396972E0026BB2E /* Models */,
+				345956CA2396924D0026BB2E /* Processor.swift */,
 				345956BF23968EEE0026BB2E /* main.swift */,
 			);
 			path = MixTape;
+			sourceTree = "<group>";
+		};
+		345956C623968F0C0026BB2E /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		345956CE2396972E0026BB2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				342D273A2396C9E000B73560 /* ChangeType.swift */,
+				345956D3239698530026BB2E /* Choices.swift */,
+				345956D1239697B00026BB2E /* PlayList.swift */,
+				342D273C2396CA8D00B73560 /* PlayListChange.swift */,
+				345956CF239697620026BB2E /* Song.swift */,
+				342D273E2396CADA00B73560 /* SongChange.swift */,
+				345956CC239696A10026BB2E /* User.swift */,
+				342D27382396C6B400B73560 /* UserChange.swift */,
+				342D27402396CB2D00B73560 /* Changes.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +118,7 @@
 				345956B823968EEE0026BB2E /* Sources */,
 				345956B923968EEE0026BB2E /* Frameworks */,
 				345956BA23968EEE0026BB2E /* CopyFiles */,
+				345956C723968F620026BB2E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -115,11 +162,41 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		345956C723968F620026BB2E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -f -R ${BUILT_PRODUCTS_DIR}/${APPLICATION_NAME} \"${PROJECT_DIR}/bin\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		345956B823968EEE0026BB2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				342D273F2396CADA00B73560 /* SongChange.swift in Sources */,
+				342D27412396CB2D00B73560 /* Changes.swift in Sources */,
+				342D27392396C6B400B73560 /* UserChange.swift in Sources */,
+				345956D0239697620026BB2E /* Song.swift in Sources */,
+				345956D2239697B00026BB2E /* PlayList.swift in Sources */,
+				342D273B2396C9E000B73560 /* ChangeType.swift in Sources */,
+				345956CD239696A10026BB2E /* User.swift in Sources */,
+				345956CB2396924D0026BB2E /* Processor.swift in Sources */,
+				342D273D2396CA8D00B73560 /* PlayListChange.swift in Sources */,
+				345956D4239698530026BB2E /* Choices.swift in Sources */,
 				345956C023968EEE0026BB2E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
